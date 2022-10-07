@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef Abstract="True" ParentName="FloorBase" Name="ChitinTileBase">
+		<label>chitin tiles</label>
+		<description>Chitin plates roughly assembled to form a flooring. Takes a rather long time to place. Not the worst looking floor. Can be dyed a number of colours based on various invertebrates.</description>
+		<texturePath>Terrain/Surfaces/ChitinFloor</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>220</renderPrecedence>
+		<statBases>
+		  <Beauty>1</Beauty>
+		  <WorkToBuild>1000</WorkToBuild>
+		</statBases>
+		<designatorDropdown>Floor_ChitinTile</designatorDropdown>
+		<costList>
+		  <InsectChitin>3</InsectChitin>
+		</costList>
+		<designationHotKey>Misc6</designationHotKey>
+		<researchPrerequisites>
+		  <li>Stonecutting</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitinBleached</defName>
+		<label>chitin tile 'bleached'</label>
+		<color>(231,226,220)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitinBoiled</defName>
+		<label>chitin tile 'boiled'</label>
+		<color>(55,51,49)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Chaurus</defName>
+		<label>chitin tile 'chaurus'</label>
+		<color>(28,31,34)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Hoarvore</defName>
+		<label>chitin tile 'hoarvore'</label>
+		<color>(67,63,73)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Hopper</defName>
+		<label>chitin tile 'hopper'</label>
+		<color>(137,102,83)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Kwama</defName>
+		<label>chitin tile 'kwama'</label>
+		<color>(102,69,54)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Megascarab</defName>
+		<label>chitin tile 'megascarab</label>
+		<color>(114,107,84)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_megaspider</defName>
+		<label>chitin tile 'megaspider'</label>
+		<color>(156,148,125)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Netch</defName>
+		<label>chitin tile 'netch'</label>
+		<color>(131,111,94)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Nix</defName>
+		<label>chitin tile 'hound'</label>
+		<color>(129,132,75)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_NixOx</defName>
+		<label>chitin tile 'ox'</label>
+		<color>(81,71,58)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Scrib</defName>
+		<label>chitin tile 'scrib'</label>
+		<color>(140,130,145)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Shalk</defName>
+		<label>chitin tile 'shalk'</label>
+		<color>(103,102,107)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_ShalkNew</defName>
+		<label>chitin tile 'shalk'</label>
+		<color>(58,53,61)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Spelopede</defName>
+		<label>chitin tile 'spelopede'</label>
+		<color>(154,125,94)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Strider</defName>
+		<label>chitin tile 'strider'</label>
+		<color>(85,72,57)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_StriderNew</defName>
+		<label>chitin tile 'strider'</label>
+		<color>(132,113,89)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_Thunderbug</defName>
+		<label>chitin tile 'thunderbug'</label>
+		<color>(35,84,158)</color>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="ChitinTileBase">
+		<defName>TileChitin_ThunderbugAlt</defName>
+		<label>chitin tile 'thunderbug'</label>
+		<color>(21,52,97)</color>
+	</TerrainDef>
+	
+</Defs>

@@ -1,0 +1,14 @@
+C:\Users\andre\Desktop\Rimworld\MorrowRim\Insects give chitin\Assemblies\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\Insects give chitin\Source\Chitin\Chitin\obj\Debug\Chitin.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\Rimworld\MorrowRim\Insects give chitin\Source\Chitin\Chitin\obj\Debug\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\Insects have chitin\Assemblies\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\Insects have chitin\Source\Chitin\Chitin\obj\Debug\Chitin.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\Rimworld\MorrowRim\Insects have chitin\Source\Chitin\Chitin\obj\Debug\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Patches\Insects have chitin\Source\Chitin\Chitin\obj\Debug\Chitin.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Patches\Insects have chitin\Source\Chitin\Chitin\obj\Debug\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Patches\Insects have chitin.old\Assemblies\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Patches\Insects have chitin.old\Source\Chitin\Chitin\obj\Debug\Chitin.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Patches\Insects have chitin.old\Source\Chitin\Chitin\obj\Debug\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Patches\Insects have chitin\Source\Chitin\Chitin\obj\Debug\Chitin.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Smaller\MorrowRim - Trolls\Chitin.dll
+C:\Users\andre\Desktop\Rimworld\MorrowRim\. Patches\Insects have chitin\Chitin.dll

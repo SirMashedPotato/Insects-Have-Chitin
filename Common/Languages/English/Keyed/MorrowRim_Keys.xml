@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MorrowRim_enableVFEInsectoids>Enable adding chitin to Vanilla Factions Expanded Insectoids.</MorrowRim_enableVFEInsectoids>
+	<MorrowRim_enableLoggingOnGameStart>Enable logging of patches on game start.</MorrowRim_enableLoggingOnGameStart>
+	<MorrowRim_chitinMultiplier>Percentage based multiplier for the amount of chitin given to insectoids.</MorrowRim_chitinMultiplier>
+	
+	<MorrowRim_useVFEInsectoidsChitin>Switch to giving insects VFE Insectoids chitin.</MorrowRim_useVFEInsectoidsChitin>
+	<MorrowRim_useAlphaAnimalsChitin>Switch to giving insects alpha animals chitin.</MorrowRim_useAlphaAnimalsChitin>
+	
+	<MorrowRim_enableVFEInsectoidsChitinRecipes>Enable recipes for converting between chitin and VFE Insectoids chitin.</MorrowRim_enableVFEInsectoidsChitinRecipes>
+	<MorrowRim_enableAlphaAnimalsChitinRecipes>Enable recipes for converting between chitin and Alpha Animals chitin.</MorrowRim_enableAlphaAnimalsChitinRecipes>
+	
+	<MorrowRim_restartWarning>Settings will have no effect until the game is restarted.</MorrowRim_restartWarning>
+	<Chitin_reset>Reset settings.</Chitin_reset>
+</LanguageData>

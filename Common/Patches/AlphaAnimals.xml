@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Recipe to convert from AA to chitin -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>AlphaChitin_ToChitinPlate</defName>
+							<label>convert alpha chitin to chitin plates</label>
+							<description>Converts 10 alpha chitin to 5 chitin plates.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Leather_Chitin</li>
+									<li>Leather_IronChitin</li>
+									<li>Leather_RaptorPlates</li>
+									<li>Leather_BlackChitin</li>
+								  </thingDefs>
+								</filter>
+								<count>10</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>Leather_Chitin</li>
+								<li>Leather_IronChitin</li>
+								<li>Leather_RaptorPlates</li>
+								<li>Leather_BlackChitin</li>
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <InsectChitin>5</InsectChitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>BulkAlphaChitin_ToChitinPlate</defName>
+							<label>bulk convert alpha chitin to chitin plates</label>
+							<description>Converts 40 alpha chitin to 20 chitin plates.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Leather_Chitin</li>
+									<li>Leather_IronChitin</li>
+									<li>Leather_RaptorPlates</li>
+									<li>Leather_BlackChitin</li>
+								  </thingDefs>
+								</filter>
+								<count>40</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>Leather_Chitin</li>
+								<li>Leather_IronChitin</li>
+								<li>Leather_RaptorPlates</li>
+								<li>Leather_BlackChitin</li>
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <InsectChitin>20</InsectChitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+				
+
+				<!-- Recipe to convert to AA from chitin -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>ChitinPlateToAlphaChitin</defName>
+							<label>convert chitin plates to alpha chitin</label>
+							<description>Converts 5 chitin plates to 10 alpha chitin.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>InsectChitin</li>
+								  </thingDefs>
+								</filter>
+								<count>5</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>InsectChitin</li>
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <Leather_Chitin>10</Leather_Chitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>BulkChitinPlateToAlphaChitin</defName>
+							<label>bulk convert chitin plates to alpha chitin</label>
+							<description>Converts 20 chitin plates to 40 alpha chitin.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>InsectChitin</li>
+								  </thingDefs>
+								</filter>
+								<count>20</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>InsectChitin</li>
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <Leather_Chitin>40</Leather_Chitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
+

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Insectoids</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Recipe to convert from VFEI to chitin -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>VFEIChitin_ToChitinPlate</defName>
+							<label>convert VFE Insectoids chitin to chitin plates</label>
+							<description>Converts 5 VFE Insectoids chitin to 10 chitin plates.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>VFEI_Chitin</li>
+								  </thingDefs>
+								</filter>
+								<count>5</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>VFEI_Chitin</li>
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <InsectChitin>10</InsectChitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>BulkVFEIChitin_ToChitinPlate</defName>
+							<label>bulk convert VFE Insectoids chitin to chitin plates</label>
+							<description>Converts 20 VFE Insectoids chitin to 40 chitin plates.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>VFEI_Chitin</li>
+								  </thingDefs>
+								</filter>
+								<count>20</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>VFEI_Chitin</li>
+
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <InsectChitin>40</InsectChitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+				
+				<!-- Recipe to convert to VFEI from chitin -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>ChitinPlateToVFEIChitin</defName>
+							<label>convert chitin plates to VFE Insectoids chitin</label>
+							<description>Converts 10 chitin plates to 5 VFE Insectoids chitin.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>InsectChitin</li>
+								  </thingDefs>
+								</filter>
+								<count>10</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>InsectChitin</li>
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <VFEI_Chitin>5</VFEI_Chitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>BulkChitinPlateToVFEIChitin</defName>
+							<label>bulk convert chitin plates to VFE Insectoids chitin</label>
+							<description>Converts 40 chitin plates to 20 VFE Insectoids chitin.</description>
+							<jobString>Converting chitin.</jobString>
+							<effectWorking>Cremate</effectWorking>
+							<soundWorking>Recipe_Cremate</soundWorking>
+							<workAmount>500</workAmount>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>ButcherSpot</li>
+								<li>TableButcher</li>
+								<li>TableStonecutter</li>
+							</recipeUsers>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>InsectChitin</li>
+								  </thingDefs>
+								</filter>
+								<count>40</count>
+							  </li>
+							</ingredients>
+							<fixedIngredientFilter>
+							  <thingDefs>
+								<li>InsectChitin</li>
+							  </thingDefs>
+							</fixedIngredientFilter>
+							<products>
+							  <VFEI_Chitin>20</VFEI_Chitin>
+							</products>
+							<workSkill>Crafting</workSkill>
+						</RecipeDef>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
+

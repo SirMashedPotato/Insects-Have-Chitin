@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim of Madness - Bones</li>
+		</mods> 
+				
+		<match Class="PatchOperationSequence">
+			<operations>
+				
+				<!-- Add chitin to recipes -->
+				
+				<!-- Bonecrete -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "MakeBoneChina"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "MakeBoneChina"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+				<!-- Bonecrete -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "MakeBonecrete"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "MakeBonecrete"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+				<!-- calcium polymer -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "MakeBonePlastic"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "MakeBonePlastic"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+				<!-- chemfuel -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "Make_ChemfuelFromBone"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/RecipeDef[defName = "Make_ChemfuelFromBone"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>InsectChitin</li>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
+
