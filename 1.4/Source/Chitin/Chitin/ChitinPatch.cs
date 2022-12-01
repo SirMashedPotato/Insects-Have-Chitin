@@ -11,12 +11,16 @@ namespace Chitin
         static Main()
         {
             int patched = 0;
-            //try something
             DefDatabase<ThingDef>.AllDefsListForReading.ForEach(action: chitin =>
             {
+                bool vfeiChitinSkip = false;
                 if (chitin?.race?.leatherDef == null && (chitin?.race?.FleshType == FleshTypeDefOf.Insectoid || chitin?.race?.useMeatFrom?.ToString() == "Megaspider"))
                 {
-                    if (chitin.butcherProducts == null || (chitin.butcherProducts.Any(x => x.thingDef.defName == "VFEI_Chitin") && Chitin_Mod.EnableVFEInsectoids()))
+                    if (chitin.butcherProducts != null && chitin.butcherProducts.Any(x => x.thingDef.defName == "VFEI_Chitin") && !Chitin_Mod.EnableVFEInsectoids())
+                    {
+                        vfeiChitinSkip = true;
+                    }
+                    if (!vfeiChitinSkip)
                     {
                         chitin.race.leatherDef = ThingDefOf.InsectChitin;
                     }

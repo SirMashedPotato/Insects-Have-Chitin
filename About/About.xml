@@ -11,4 +11,7 @@
 		<li>1.4</li>
 	</supportedVersions>
 	<description>Gives chitin to insects, meant for use as a companion mod to 'Insects don't have bones'.</description>
+	<incompatibleWith>
+		<li>Scorpio.OptimizationLeathers</li>
+	</incompatibleWith>
 </ModMetaData>
